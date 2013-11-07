@@ -1,0 +1,271 @@
+body
+{
+    font-family: sans-serif;
+    font-size: 12px;
+}
+
+#map-canvas, #panel
+{
+    height: 500px;
+    width: 600px;
+}
+
+#panel
+{
+    width: 300px;
+    float: left;
+}
+
+    #panel .feature-filter label
+    {
+        width: 130px;
+    }
+
+p.attribution, p.attribution a
+{
+    color: #666;
+}
+
+.storelocator-panel
+{
+    border: 1px solid #ccc;
+    overflow: auto;
+    background: #eee;
+}
+
+    .storelocator-panel .store-list
+    {
+        margin: 0;
+        padding: 0;
+        background: #ECF3F9;
+    }
+
+    /*.storelocator-panel .store-list li,
+        .storelocator-panel .directions-panel
+        {
+            padding: 5px;
+        }*/
+
+    .storelocator-panel .directions-panel
+    {
+        font-size: 13px;
+        background: #eee;
+    }
+
+    .storelocator-panel .store-list li.store:hover
+    {
+        cursor: pointer;
+    }
+
+    .storelocator-panel .store-list li.highlighted,
+    .storelocator-panel .store-list li.highlighted:hover
+    {
+    }
+
+    .storelocator-panel .directions
+    {
+        display: none;
+    }
+
+    .storelocator-panel .location-search
+    {
+        padding: 10px;
+        margin-bottom: 5px;
+    }
+
+        .storelocator-panel .location-search input
+        {
+            width: 95%;
+        }
+
+        .storelocator-panel .location-search h4
+        {
+            margin: 0;
+            margin-bottom: 10px;
+            padding: 0;
+        }
+
+    .storelocator-panel .store-list .no-stores
+    {
+        color: grey;
+    }
+
+    .storelocator-panel .store .features
+    {
+        display: none;
+    }
+
+    .storelocator-panel .feature-filter
+    {
+        overflow: hidden;
+    }
+
+.store .title
+{
+    font-weight: bold;
+    color: #0055AA;
+}
+
+.store .address,
+.store .phone,
+.store .web,
+.store .misc
+{
+    font-size: 12px;
+    display: block;
+    clear: both;
+    padding-left: 15px;
+    max-width: 400px;
+}
+
+.store .features
+{
+    overflow: hidden;
+    color: grey;
+    margin: 0;
+    padding: 0;
+    font-size: 70%;
+    max-width: 250px;
+}
+
+    .store .features li
+    {
+        display: inline;
+        float: left;
+        padding-right: 0.8em;
+    }
+
+.store .web a
+{
+    color: #0055AA;
+    text-decoration: none;
+}
+
+    .store .web a:hover
+    {
+        text-decoration: underline;
+    }
+
+.store .action
+{
+    font-size: 0.8em;
+    color: #0055AA;
+    margin-right: 0.5em;
+    text-decoration: none;
+}
+
+    .store .action:hover
+    {
+        text-decoration: underline;
+    }
+
+.imageUrl
+{
+    float: left;
+}
+
+.storelocator-filter
+{
+    background: none repeat scroll 0 0 #EEEEEE;
+    padding-left: 10px;
+    margin: 0px;
+}
+
+.gm-style div, .gm-style span, .gm-style label, .gm-style a
+{
+    font-size: 100% !important;
+}
+
+.modalLink a
+{
+    font-size: 11px;
+    text-decoration: none;
+    color: #fff;
+    margin-top: 3px;
+    margin-left: 15px;
+    font-weight: bold;
+}
+
+    .modalLink a:hover
+    {
+    }
+
+.store-list .store
+{
+    margin-bottom: 5px;
+    overflow: auto;
+}
+
+.store-list li
+{
+    border-bottom: white 2px solid;
+}
+
+.store-list .store .title
+{
+    font-weight: bold;
+    color: #0055AA;
+    padding-top: 15px;
+}
+
+input[type="radio"], input[type="checkbox"]
+{
+    margin: -3px 5px 0 0;
+}
+
+.modal-header
+{
+    background: #0055aa;
+    color: white;
+    border-radius: 5px 5px 0px 0px;
+}
+
+.modal-body
+{
+    background: #ECF3F9;
+}
+
+.modal-footer
+{
+    background: #ECF3F9;
+    margin: 0px;
+    border-radius: 0px 0px 5px 5px;
+}
+
+.modal-content
+{
+    border-radius: 10px;
+}
+
+.btn
+{
+    padding: 3px 6px;
+}
+
+.modalLink .btn
+{
+    padding: 1px 4px;
+}
+
+.pac-item:hover
+{
+    background: #ECF3F9 !important;
+}
+
+.email
+{
+    display: none;
+}
+
+.priority
+{
+    display: none;
+}
+
+.directions-to
+{
+    margin-left: 20px;
+    -ms-text-overflow: ellipsis;
+    -o-text-overflow: ellipsis;
+    text-overflow: ellipsis;
+}
